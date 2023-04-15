@@ -31,3 +31,43 @@ picture{
     margin: 0;
     aspect-ratio: 16/9;
 }
+.limk:nth-child(1)::before{
+    background: #eca624;
+}
+.limk:nth-child(2)::before{
+    background: #1da1f2;
+}
+.limk:nth-child(3)::before{
+    background: #284c6f;
+}
+.link i {
+    font-size: 2.5em;
+    transition: all 0.6s;
+    color: #f1f1f1;
+    background: #1C1A1C;
+    padding: 8px;
+    border-radius: 4px;
+    margin: 4px;
+}
+.link:hover i {
+    color: #fff;
+    transform: rotate(-15deg);
+}
+.link:hover i.linkedin {
+    color: #1da1f2;
+}
+.link:hover i.instagram {
+    color: #ad24ec;
+}
+.link:hover i.facebook {
+    color: #0a66c2;
+}
+
+a {
+    color: #000;
+}
+
+#Redes {
+    display: flex;
+    align-items: center;
+}
